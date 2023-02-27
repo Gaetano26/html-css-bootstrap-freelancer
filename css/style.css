@@ -12,7 +12,7 @@ body {
     color: var(--white);
 }
 
-header, #bot-footer {
+header .navbar, #bot-footer {
     background-color: var(--dark-gray);
 }
 
@@ -27,4 +27,15 @@ header, #bot-footer {
 
 #top-footer {
     background-color: var(--light-gray);
+}
+
+.immagine{
+    width: 200px;
+    height: 200px;
+}
+
+.linea {
+    width: 70px;
+    height: 3px;
+    display: inline-block;
 }
