@@ -1,3 +1,4 @@
+/* root*/
 :root{
     /* Color styles */
 --dark-gray: #2C3E50;
@@ -8,39 +9,46 @@
 
 }
 
+/* colore sfondo bianco del body*/
 body {
     color: var(--white);
 }
-
+ 
+/* colore sfondo dark-gray*/
 header .navbar, #bot-footer {
     background-color: var(--dark-gray);
 }
 
+/* colore sfondo aqua*/
 #hero, #about {
     background-color: var(--aqua);
 }
 
+/* colore sfondo bianco sezione portfolio e contact*/
 #portfolio, #contact {
     background-color: var(--white);
     color: var(--black);
 }
 
+/* colore sfondo light-gray top-footer*/
 #top-footer {
     background-color: var(--light-gray);
 }
 
+/* dimensionamento class immagine*/
 .immagine{
     width: 200px;
     height: 200px;
 }
 
+/* dimensionamento linee accanto alle stelle*/
 .linea {
     width: 100px;
     height: 3px;
     display: inline-block;
 }
 
-
+/*after immagini sezione portfolio piu inserimento contenuto con opacity 0*/
 .img-container:after {
        content: '+';
        display: flex;
@@ -56,24 +64,29 @@ header .navbar, #bot-footer {
        color: white;
        opacity: 0;
 }
-
+ /* hover immagini sezione portfolio*/
 .img-container:hover::after {
     opacity: 1;
 }
+
+/* colore testo bianco dei link nella sezione #mynav*/
  #mynav a {
     color:white;
  }
 
+ /* colore logo bianco navbar*/
  button span i {
     color: white;
  }
  
+ /* hover dei link nella navbar*/
 #mynav a:hover {
     color:green;
 
     
 }
 
+/* creazione bordo rotondo loghi top-footer*/
 .radius {
     width: 50px;
     height: 50px;
@@ -82,6 +95,7 @@ header .navbar, #bot-footer {
       
 }
 
+/* colore testo aqua della class acqua*/
 .acqua {
     color: var(--aqua);
 }
